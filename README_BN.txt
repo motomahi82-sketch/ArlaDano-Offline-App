@@ -1,6 +1,8 @@
-Arla Dano Milk — Offline Android Project
+Arla Dano Offline Android project
 
-এই ZIP-এ Android Studio project, offline app HTML, আপনার দেওয়া logo, launcher icon এবং Play Store listing-এর বাংলা খসড়া আছে।
+GitHub-এ ZIP extract করে repository-র root-এ সব ফাইল ও .github folder upload করুন।
+তারপর Actions tab > Build Arla Dano APK > Run workflow চাপুন।
+Build সফল হলে workflow run-এর Artifacts অংশ থেকে ArlaDano-debug-apk ডাউনলোড করুন।
 
-APK/AAB তৈরি করতে Android Studio ও Android SDK-সহ কম্পিউটার প্রয়োজন। এই পরিবেশে APK/AAB build করা যায়নি।
-প্রথমে PLAY_STORE_LISTING_BN.md পড়ুন। তারপর Android Studio-তে এই project খুলে Gradle Sync ও Build করুন।
+এই workflow debug APK তৈরি করে; Play Store-এর জন্য signed release AAB আলাদা প্রস্তুতি ও যাচাই প্রয়োজন।
+কোনো password, OTP বা signing key GitHub-এ commit করবেন না।
